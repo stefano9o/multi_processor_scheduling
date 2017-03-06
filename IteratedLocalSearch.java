@@ -4,7 +4,6 @@ import java.util.logging.Level;
 import java.util.logging.Logger;
 
 public class IteratedLocalSearch {
-
     private Job[] parameterJobs;
     private Chromosome initialSolution;
     private Chromosome solution;
@@ -30,26 +29,6 @@ public class IteratedLocalSearch {
     }
 
     public void start() {
-        /*
-        Chromosome postPer = null;
-        Chromosome prev = null;
-        Chromosome current = null;
-        prev = localSearch(initialSolution);
-
-        long start = System.currentTimeMillis();
-        long finish;
-        int eqSol = 0;
-        int nIter = 0;
-        do {
-            postPer = perturbPriorityList(prev,2);
-            current = localSearch(postPer);
-            prev = acceptanceCriterion(prev,current);
-            ++nIter;
-        }while (nIter < 50);
-
-        solution = prev;
-         */
-        
         List[] previousSchedule = null;
         List[] currentSchedule = null;
         List[] temp = null;
