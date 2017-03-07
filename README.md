@@ -1,5 +1,5 @@
 # Multi-Processor Scheduling
-## Final project for the exam "Method and model of decision support" prepared in 7/2014
+## Final project for the exam "Methods and model of decision support" prepared in 7/2014
 
 ### Problem Description
 This program uses a Metaheuristic which is a mix of "Population-based" and "Local search" to solve the problem of minimising the total tardiness on identical parallel machines. In particular, it has been used a "Genetic Algorithm" with an "Iterated Local Search".
